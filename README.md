@@ -16,7 +16,7 @@ You have three hours to complete this challenge. Plan your time accordingly.
 
 Commit your code regularly and meaningfully. This helps both you (in case you ever need to return to old code for any number of reasons) and your project manager.
 
-## Description
+## Description 
 
 The client for this challenge is _Spacewalkers Magazine_. Spacewalkers needs your help to build a small proof of concept website for their marketing team. They have provided designs for both desktop and phone views. In addition to designs and content they have most of the home page coded for you. You just need to finish the navigation and header as well as the mobile styles.
 
@@ -33,14 +33,22 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. What is the difference between an adaptive website and a fully responsive website?
+   Adaptive websites use breakpoints to adjust to various screen sizes but may not work effectively (i.e. if coded with static  
+   vs. relative font sizes). Responsive is coded more for adjustmet to screen size by utilizing percentages and relative units.    
 
 2. Describe what it means to be mobile first vs desktop first.
+   Design philosophy - mobile first means designing for the smallest screen sizes and then working your way up to the largest.   
+   With mobile first, breakpoints are designated with min instead of max.
 
-3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
+3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units? 
+   Assuming a default font size of 16px, 'font-size: 62.5%' converts 1rem from 16px into 10px. 
 
-4. How would you describe preprocessing to someone new to CSS?
+4. How would you describe preprocessing to someone new to CSS? 
+   It is much better for organizing and reading code, simplifies CSS by removing a lot of the redundancies, and allows for the   
+   use of variables and mixins.
 
-5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble? 
+   Nesting. Learning to correctly nest elements. 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
