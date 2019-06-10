@@ -1,1 +1,28 @@
 // Navigation code here
+.nav-bar {
+    background-color: @nav-bg;
+    overflow: hidden;
+    position: fixed;
+    border: 1px solid @nav-border;
+    top: 0;
+    opacity: 0.95;
+    width: 100%;
+
+    .nav {
+        .flexCol(space-evenly, center);
+        font-family: @nav-font; 
+        max-width: 800px;
+        height: 100px;
+        
+
+        h1 {
+            font-size: 4rem;
+        }
+
+        a {
+            font-size: 1.6rem;
+            color: @ebony-clay;
+            margin: 0 15px;
+        }
+    }
+}
